@@ -19,3 +19,8 @@ Construye una aplicación sencilla en Spring Boot (que envíe un saludo e indiqu
 - Gestión de código: El repositorio en GitHub existe, tiene el código fuente completo y al menos un commit descriptivo.
 - Dockerización: El Dockerfile está correctamente configurado (usa una imagen base de Java y copia el .jar adecuado).
 - Distribución en la nube: La imagen está disponible en Docker Hub y el nombre de la imagen sigue el formato (usuario/nombre-app:tag).
+
+## Comando de inicio
+```bash
+docker run -p 8081:8081 -it -d sebastianc23/practicadocker:latest
+```
